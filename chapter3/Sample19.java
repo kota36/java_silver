@@ -12,6 +12,10 @@ public class Sample19 {
 		String str = "num is";
 		str += num < 10 ? "<10" : ">=10";
 		System.out.println(str);
+		
+		int[] i = new int [5]; 
+		i[0] = 'a';
+		System.out.println(i[0]);
 	}
 
 }
