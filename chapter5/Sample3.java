@@ -7,7 +7,8 @@ package chapter5;
  *
  */
 
-class Test {
+
+public class Sample3 {
 	void myPrint() {
 		System.out.println("myPrint()");
 	}
@@ -19,11 +20,9 @@ class Test {
 	void myPrint(int a) {
 		System.out.println("myPrint(int a)");
 	}
-}
 
-public class Sample3 {
 	public static void main(String[] args) {
-		Test t = new Test();
+		Sample3 t = new Sample3();
 		t.myPrint();
 		t.myPrint("ss");
 		t.myPrint(10);
